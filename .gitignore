@@ -137,3 +137,6 @@ Temporary Items
 
 # Application specific
 # Add any application-specific files that should be ignored
+
+dist/*
+build/*
