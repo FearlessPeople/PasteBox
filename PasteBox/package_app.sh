@@ -16,7 +16,7 @@ PACKAGE_NAME="$APP_NAME-$VERSION"
 # 检查应用是否存在
 if [ ! -d "$APP_PATH" ]; then
     echo "❌ 错误：找不到应用文件 $APP_PATH"
-    echo "请先运行构建命令：xcodebuild -project ClipboardManager.xcodeproj -target ClipboardManager -configuration Debug build"
+    echo "请先运行构建命令：xcodebuild -project PasteBox.xcodeproj -target PasteBox -configuration Debug build"
     exit 1
 fi
 

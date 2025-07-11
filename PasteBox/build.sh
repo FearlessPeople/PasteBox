@@ -9,11 +9,11 @@ echo "🚀 开始构建 PasteBox..."
 
 # 清理之前的构建
 echo "🧹 清理构建缓存..."
-xcodebuild clean -project ClipboardManager.xcodeproj -target ClipboardManager
+xcodebuild clean -project PasteBox.xcodeproj -target PasteBox
 
 # 构建应用（只构建主目标，避免测试目标的代码签名问题）
 echo "🔨 构建应用..."
-xcodebuild -project ClipboardManager.xcodeproj -target ClipboardManager -configuration Debug build
+xcodebuild -project PasteBox.xcodeproj -target PasteBox -configuration Debug build
 
 echo "✅ 构建完成！"
 
@@ -22,5 +22,5 @@ read -p "是否立即运行应用？(y/n): " -n 1 -r
 echo
 if [[ $REPLY =~ ^[Yy]$ ]]; then
     echo "🚀 启动应用..."
-    open build/Debug/ClipboardManager.app
+    open build/Debug/PasteBox.app
 fi
