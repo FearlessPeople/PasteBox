@@ -2,6 +2,36 @@
 
 一个功能完整、简洁高效的 macOS 原生剪贴板管理应用，使用 Swift 和 SwiftUI 开发。
 
+## 📸 应用截图
+
+### 主界面
+<img src="docs/images/screenshots/main-interface.png" alt="PasteBox 主界面" width="700">
+
+*PasteBox 主界面展示了简洁的剪贴板历史管理界面*
+
+### 菜单栏集成
+<img src="docs/images/screenshots/menu-bar.png" alt="菜单栏集成" width="400">
+
+*应用完美集成到 macOS 菜单栏，一键访问*
+
+### 历史面板
+<img src="docs/images/screenshots/history-panel.png" alt="剪贴板历史面板" width="600">
+
+*强大的历史面板支持搜索、过滤和快速复制*
+
+### 设置界面
+<div align="center">
+  <img src="docs/images/screenshots/settings-general.png" alt="常规设置" width="45%">
+  <img src="docs/images/screenshots/settings-hotkey.png" alt="快捷键设置" width="45%">
+</div>
+
+*左：常规设置页面 | 右：快捷键配置页面*
+
+### 功能演示
+<img src="docs/images/demo/demo.gif" alt="功能演示" width="600">
+
+*PasteBox 核心功能演示动画*
+
 ## 🚀 主要功能
 
 ### 核心功能
