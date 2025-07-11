@@ -12,37 +12,37 @@
 			containerPortal = 5F1581952E1FCC42008AD654 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5F15819C2E1FCC42008AD654;
-			remoteInfo = ClipboardManager;
+			remoteInfo = PasteBox;
 		};
 		5F1581B62E1FCC43008AD654 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5F1581952E1FCC42008AD654 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 5F15819C2E1FCC42008AD654;
-			remoteInfo = ClipboardManager;
+			remoteInfo = PasteBox;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5F15819D2E1FCC42008AD654 /* ClipboardManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipboardManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F1581AB2E1FCC43008AD654 /* ClipboardManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F1581B52E1FCC43008AD654 /* ClipboardManagerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClipboardManagerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F15819D2E1FCC42008AD654 /* PasteBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasteBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1581AB2E1FCC43008AD654 /* PasteBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasteBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F1581B52E1FCC43008AD654 /* PasteBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasteBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		5F15819F2E1FCC42008AD654 /* ClipboardManager */ = {
+		5F15819F2E1FCC42008AD654 /* PasteBox */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClipboardManager;
+			path = PasteBox;
 			sourceTree = "<group>";
 		};
-		5F1581AE2E1FCC43008AD654 /* ClipboardManagerTests */ = {
+		5F1581AE2E1FCC43008AD654 /* PasteBoxTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClipboardManagerTests;
+			path = PasteBoxTests;
 			sourceTree = "<group>";
 		};
-		5F1581B82E1FCC43008AD654 /* ClipboardManagerUITests */ = {
+		5F1581B82E1FCC43008AD654 /* PasteBoxUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ClipboardManagerUITests;
+			path = PasteBoxUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		5F1581942E1FCC42008AD654 = {
 			isa = PBXGroup;
 			children = (
-				5F15819F2E1FCC42008AD654 /* ClipboardManager */,
-				5F1581AE2E1FCC43008AD654 /* ClipboardManagerTests */,
-				5F1581B82E1FCC43008AD654 /* ClipboardManagerUITests */,
+				5F15819F2E1FCC42008AD654 /* PasteBox */,
+				5F1581AE2E1FCC43008AD654 /* PasteBoxTests */,
+				5F1581B82E1FCC43008AD654 /* PasteBoxUITests */,
 				5F15819E2E1FCC42008AD654 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		5F15819E2E1FCC42008AD654 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5F15819D2E1FCC42008AD654 /* ClipboardManager.app */,
-				5F1581AB2E1FCC43008AD654 /* ClipboardManagerTests.xctest */,
-				5F1581B52E1FCC43008AD654 /* ClipboardManagerUITests.xctest */,
+				5F15819D2E1FCC42008AD654 /* PasteBox.app */,
+				5F1581AB2E1FCC43008AD654 /* PasteBoxTests.xctest */,
+				5F1581B52E1FCC43008AD654 /* PasteBoxUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5F15819C2E1FCC42008AD654 /* ClipboardManager */ = {
+		5F15819C2E1FCC42008AD654 /* PasteBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F1581BF2E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "ClipboardManager" */;
+			buildConfigurationList = 5F1581BF2E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "PasteBox" */;
 			buildPhases = (
 				5F1581992E1FCC42008AD654 /* Sources */,
 				5F15819A2E1FCC42008AD654 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				5F15819F2E1FCC42008AD654 /* ClipboardManager */,
+				5F15819F2E1FCC42008AD654 /* PasteBox */,
 			);
-			name = ClipboardManager;
+			name = PasteBox;
 			packageProductDependencies = (
 			);
-			productName = ClipboardManager;
-			productReference = 5F15819D2E1FCC42008AD654 /* ClipboardManager.app */;
+			productName = PasteBox;
+			productReference = 5F15819D2E1FCC42008AD654 /* PasteBox.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5F1581AA2E1FCC43008AD654 /* ClipboardManagerTests */ = {
+		5F1581AA2E1FCC43008AD654 /* PasteBoxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F1581C22E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "ClipboardManagerTests" */;
+			buildConfigurationList = 5F1581C22E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "PasteBoxTests" */;
 			buildPhases = (
 				5F1581A72E1FCC43008AD654 /* Sources */,
 				5F1581A82E1FCC43008AD654 /* Frameworks */,
@@ -131,18 +131,18 @@
 				5F1581AD2E1FCC43008AD654 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5F1581AE2E1FCC43008AD654 /* ClipboardManagerTests */,
+				5F1581AE2E1FCC43008AD654 /* PasteBoxTests */,
 			);
-			name = ClipboardManagerTests;
+			name = PasteBoxTests;
 			packageProductDependencies = (
 			);
-			productName = ClipboardManagerTests;
-			productReference = 5F1581AB2E1FCC43008AD654 /* ClipboardManagerTests.xctest */;
+			productName = PasteBoxTests;
+			productReference = 5F1581AB2E1FCC43008AD654 /* PasteBoxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5F1581B42E1FCC43008AD654 /* ClipboardManagerUITests */ = {
+		5F1581B42E1FCC43008AD654 /* PasteBoxUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5F1581C52E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "ClipboardManagerUITests" */;
+			buildConfigurationList = 5F1581C52E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "PasteBoxUITests" */;
 			buildPhases = (
 				5F1581B12E1FCC43008AD654 /* Sources */,
 				5F1581B22E1FCC43008AD654 /* Frameworks */,
@@ -154,13 +154,13 @@
 				5F1581B72E1FCC43008AD654 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				5F1581B82E1FCC43008AD654 /* ClipboardManagerUITests */,
+				5F1581B82E1FCC43008AD654 /* PasteBoxUITests */,
 			);
-			name = ClipboardManagerUITests;
+			name = PasteBoxUITests;
 			packageProductDependencies = (
 			);
-			productName = ClipboardManagerUITests;
-			productReference = 5F1581B52E1FCC43008AD654 /* ClipboardManagerUITests.xctest */;
+			productName = PasteBoxUITests;
+			productReference = 5F1581B52E1FCC43008AD654 /* PasteBoxUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5F1581982E1FCC42008AD654 /* Build configuration list for PBXProject "ClipboardManager" */;
+			buildConfigurationList = 5F1581982E1FCC42008AD654 /* Build configuration list for PBXProject "PasteBox" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5F15819C2E1FCC42008AD654 /* ClipboardManager */,
-				5F1581AA2E1FCC43008AD654 /* ClipboardManagerTests */,
-				5F1581B42E1FCC43008AD654 /* ClipboardManagerUITests */,
+				5F15819C2E1FCC42008AD654 /* PasteBox */,
+				5F1581AA2E1FCC43008AD654 /* PasteBoxTests */,
+				5F1581B42E1FCC43008AD654 /* PasteBoxUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		5F1581AD2E1FCC43008AD654 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F15819C2E1FCC42008AD654 /* ClipboardManager */;
+			target = 5F15819C2E1FCC42008AD654 /* PasteBox */;
 			targetProxy = 5F1581AC2E1FCC43008AD654 /* PBXContainerItemProxy */;
 		};
 		5F1581B72E1FCC43008AD654 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5F15819C2E1FCC42008AD654 /* ClipboardManager */;
+			target = 5F15819C2E1FCC42008AD654 /* PasteBox */;
 			targetProxy = 5F1581B62E1FCC43008AD654 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -388,7 +388,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ClipboardManager/ClipboardManager.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PasteBox/PasteBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -408,7 +408,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fz.ClipboardManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz.PasteBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -425,7 +425,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = ClipboardManager/ClipboardManager.entitlements;
+				CODE_SIGN_ENTITLEMENTS = PasteBox/PasteBox.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
@@ -445,7 +445,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fz.ClipboardManager;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz.PasteBox;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -467,7 +467,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fz.ClipboardManagerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz.PasteBoxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -489,7 +489,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fz.ClipboardManagerTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz.PasteBoxTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -510,7 +510,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fz.ClipboardManagerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz.PasteBoxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -531,7 +531,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
 				MACOSX_DEPLOYMENT_TARGET = 15.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.fz.ClipboardManagerUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fz.PasteBoxUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
@@ -546,7 +546,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5F1581982E1FCC42008AD654 /* Build configuration list for PBXProject "ClipboardManager" */ = {
+		5F1581982E1FCC42008AD654 /* Build configuration list for PBXProject "PasteBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F1581BD2E1FCC43008AD654 /* Debug */,
@@ -555,7 +555,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F1581BF2E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "ClipboardManager" */ = {
+		5F1581BF2E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "PasteBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F1581C02E1FCC43008AD654 /* Debug */,
@@ -564,7 +564,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F1581C22E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "ClipboardManagerTests" */ = {
+		5F1581C22E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "PasteBoxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F1581C32E1FCC43008AD654 /* Debug */,
@@ -573,7 +573,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5F1581C52E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "ClipboardManagerUITests" */ = {
+		5F1581C52E1FCC43008AD654 /* Build configuration list for PBXNativeTarget "PasteBoxUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F1581C62E1FCC43008AD654 /* Debug */,
