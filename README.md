@@ -4,33 +4,40 @@
 
 ## 📸 应用截图
 
-### 主界面
-<img src="docs/images/screenshots/main-interface.png" alt="PasteBox 主界面" width="700">
+### 应用启动
+<img src="docs/images/screenshots/start_app.png" alt="PasteBox 应用启动" width="700">
 
-*PasteBox 主界面展示了简洁的剪贴板历史管理界面*
+*PasteBox 应用启动界面，展示简洁的初始状态*
 
-### 菜单栏集成
-<img src="docs/images/screenshots/menu-bar.png" alt="菜单栏集成" width="400">
+### 应用概览
+<img src="docs/images/screenshots/app_review.png" alt="PasteBox 应用概览" width="700">
 
-*应用完美集成到 macOS 菜单栏，一键访问*
-
-### 历史面板
-<img src="docs/images/screenshots/history-panel.png" alt="剪贴板历史面板" width="600">
-
-*强大的历史面板支持搜索、过滤和快速复制*
+*PasteBox 主界面概览，展示完整的剪贴板管理功能*
 
 ### 设置界面
+
+#### 常规设置
+<img src="docs/images/screenshots/settings1.png" alt="常规设置" width="600">
+
+*常规设置页面 - 基础配置选项*
+
+#### 快捷键配置
+<img src="docs/images/screenshots/settings2.png" alt="快捷键设置" width="600">
+
+*快捷键设置页面 - 自定义快捷键配置*
+
+#### 高级设置
 <div align="center">
-  <img src="docs/images/screenshots/settings-general.png" alt="常规设置" width="45%">
-  <img src="docs/images/screenshots/settings-hotkey.png" alt="快捷键设置" width="45%">
+  <img src="docs/images/screenshots/settings3.png" alt="高级设置1" width="45%">
+  <img src="docs/images/screenshots/settings4.png" alt="高级设置2" width="45%">
 </div>
 
-*左：常规设置页面 | 右：快捷键配置页面*
+*左：高级设置选项 | 右：性能与优化配置*
 
-### 功能演示
-<img src="docs/images/demo/demo.gif" alt="功能演示" width="600">
+#### 其他配置
+<img src="docs/images/screenshots/settings5.png" alt="其他设置" width="600">
 
-*PasteBox 核心功能演示动画*
+*其他设置选项 - 完整的配置体验*
 
 ## 🚀 主要功能
 
